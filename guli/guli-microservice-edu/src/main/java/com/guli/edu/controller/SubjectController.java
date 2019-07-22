@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  * 课程科目 前端控制器
  * </p>
  *
- * @author Helen
+ * @author
  * @since 2019-07-12
  */
 @RestController

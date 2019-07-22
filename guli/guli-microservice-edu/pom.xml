@@ -58,10 +58,16 @@
             <artifactId>lombok</artifactId>
         </dependency>
 
-        <!--xls-->
+        <!--xls(03)-->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
+        </dependency>
+
+        <!--xlsx(07)-->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
         </dependency>
 
         <dependency>
@@ -82,5 +88,20 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+
+    <!-- 项目打包时会将java目录中的*.xml文件也进行打包 -->
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+    </build>
+
 
 </project>

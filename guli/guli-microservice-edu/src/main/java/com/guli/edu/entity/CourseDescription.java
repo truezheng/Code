@@ -19,7 +19,7 @@ import lombok.experimental.Accessors;
  * 课程简介
  * </p>
  *
- * @author Helen
+ * @author
  * @since 2019-07-12
  */
 @Data
