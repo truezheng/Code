@@ -29,7 +29,8 @@ import lombok.experimental.Accessors;
 @TableName("edu_course")
 @ApiModel(value="Course对象", description="课程")
 public class Course implements Serializable {
-
+    public static final String COURSE_DRAFT = "Draft";
+    public static final String COURSE_NORMAL = "Normal";
     private static final long serialVersionUID = 1L;
 
     @ApiModelProperty(value = "课程ID")

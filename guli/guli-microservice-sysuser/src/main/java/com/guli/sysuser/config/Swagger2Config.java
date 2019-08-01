@@ -12,7 +12,7 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
- * @author helen
+ * @author
  * @since 2019/3/1
  */
 @Configuration
@@ -36,7 +36,7 @@ public class Swagger2Config {
 				.title("系统用户通用服务")
 				.description("本文档描述了系统用户通用服务接口定义")
 				.version("1.0")
-				.contact(new Contact("Helen", "http://atguigu.com", "55317332@qq.com"))
+				.contact(new Contact("zheng", "http://atguigu.com", "111@qq.com"))
 				.build();
 	}
 
